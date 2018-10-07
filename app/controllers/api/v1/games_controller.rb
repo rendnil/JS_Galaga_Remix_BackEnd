@@ -1,6 +1,7 @@
 class Api::V1::GamesController < ApplicationController
   before_action :find_game, only: [:update]
 
+
   def index
     @games = Game.all
     render json: @games
