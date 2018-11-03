@@ -1,12 +1,13 @@
 class Api::V1::GamesController < ApplicationController
-  before_action :find_game, only: [:update]
 
 
+#render all games
   def index
     @games = Game.all
     render json: @games
   end
 
+#create new game instance
   def create
     @new_game = Game.create(game_params)
     render json: @new_game
