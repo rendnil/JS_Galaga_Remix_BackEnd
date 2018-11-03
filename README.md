@@ -1,24 +1,8 @@
-# README
+# Backend for JS Galaga Remix game
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+See repo for actual game
+```
+https://github.com/rendnil/JS_Galaga_Remix_FrontEnd
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Acts as an API and uses MVC framework to store information on users and games. 
